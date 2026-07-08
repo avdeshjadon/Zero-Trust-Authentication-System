@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:mysql://mysql:3306/zerotrust_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+  data:
+    redis:
+      host: redis
+      port: 6379
