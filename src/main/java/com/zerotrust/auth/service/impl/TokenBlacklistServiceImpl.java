@@ -2,6 +2,7 @@ package com.zerotrust.auth.service.impl;
 
 import com.zerotrust.auth.service.TokenBlacklistService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 

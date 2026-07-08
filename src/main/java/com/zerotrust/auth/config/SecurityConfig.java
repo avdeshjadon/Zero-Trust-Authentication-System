@@ -5,6 +5,7 @@ import com.zerotrust.auth.security.CustomUserDetailsService;
 import com.zerotrust.auth.security.JwtAuthenticationEntryPoint;
 import com.zerotrust.auth.security.filter.JwtAuthenticationFilter;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
